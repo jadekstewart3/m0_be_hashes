@@ -111,3 +111,31 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [
+  {
+  sender: "jade@email.com",
+  recipiant: "phil@email.com",
+  date: "10/22/2022",
+  time: "3:33pm",
+  subject: "Hello",
+  body: "I love you.",
+  },
+  { 
+  sender: "billiejo@email.com",
+  recipiant: "leah@email.com",
+  date: "08/21/2022",
+  time: "2:45pm",
+  subject: "Happy Birthday!",
+  body: "I hope all your birthday wishes come true!",
+  }, 
+  {
+  sender: "bri@email.com",
+  recipiant: "denise@email.com",
+  date: "04/30/2022",
+  time: "8:30am",
+  subject: "Lunch?",
+  body: "Wanna go get some lunch today?",
+  }
+]
+puts emails
